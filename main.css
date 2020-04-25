@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+html, body {
+    background-color: #eee;
+    scroll-behavior: smooth;
+}
+
+/* Nav Styles */
+.navbar-brand img {
+    padding: 10px;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.navbar-nav > li{
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+.nav-link-phone {
+    background-color: rgb(255, 200, 97);
+    border-radius: 10px;
+    transition: all 0.2s ease;
+}
+
+.nav-link-phone:hover {
+    background-color: rgb(245, 160, 3);
+}
+/* Nav Styles End */
+
+/* Carousel Styles */
+.carousel-inner {
+    max-height: 100vh;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.carousel-caption h1 {
+    padding: 20px;
+    font-size: 4rem;
+}
+
+.carousel-caption p {
+    font-size: 2rem;
+}
+
+.info-button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 10px;
+    transition: all .2s ease;
+}
+
+.info-button:link {
+    text-decoration: none;
+}
+
+.info-button:hover {
+    background: #111;
+    color: white;
+}
+/* Carousel Styles End */
+/* Main Content */
+
+/* Main Content End */
+footer {
+    color: #eee;
+}
+/* Media Query */
+@media (max-width: 1040px) {
+    .nav-link {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 990px) {
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    .nav-link {
+        font-size: 1rem;
+    }
+
+    .nav-link-phone {
+        background-color: transparent;
+    }
+
+    .nav-link-phone:hover {
+        background-color: transparent;
+    }
+
+    .carousel-caption h1 {
+        font-size: 3rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 574px) {
+    .navbar-brand {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .bd-example {
+        display: none !important;
+    }
+}
+/* Media Query End */
