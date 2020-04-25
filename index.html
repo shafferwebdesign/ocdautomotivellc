@@ -26,7 +26,7 @@
                     <a class="nav-link" href="#">Location</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active nav-link-phone" href="tel:1-740-350-9690">Contact Us</a>
+                    <a class="nav-link active nav-link-phone" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -82,17 +82,37 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid main">
+    <div class="container shadow-lg border border-dark main bg-light">
       <div class="row">
-        <div class="col-lg-6 p-5 contact">
-          <h2 class="text-center mb-0 p-2">How to reach us</h2>
-          <p class="mt-5">Located at 106 Groves Ave Marietta, OH 45750</p>
-          <p><a href="#" class="fa fa-facebook">Our Facebook page</a><p>
+        <div class="col-lg-6 p-5 contact text-left">
+          <h2 class="font-weight-bold text-center">CONTACT REQUEST</h2>
+          <p class="text-center">Fill out the form below and we will contact you ASAP!</p>
+          <form action="https://formspree.io/xwknggan" method="POST">
+            <div class="form-group">
+              <label for="Name">Full name:</label>
+              <input type="text" name="name" class="form-control" id="name">
+            </div>
+            <div class="form-group" id="contact">
+              <label for="Email">Email Address:</label>
+              <input type="email" name="_replyto" class="form-control" id="email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">What do you need?</label>
+              <textarea name="message" class="form-control" id="comments" rows="3"></textarea>
+            </div>
+            <input type="submit" value="Send" class="btn btn-block btn-danger"></button>
+          </form>
+          <!-- <h2 class="font-weight-bold">CONTACT US TODAY</h2>
+          <a href="https://www.facebook.com/OCD.Automotive.LLC" class="btn btn-light" role="button"><i class="fab fa-facebook-f pr-1"></i> FACEBOOK</a>
+          <a href="mailto:ocd.automotive.llc@gmail.com" class="btn btn-light" role="button"><i class="fas fa-envelope pr-1"></i> CONTACT REQUEST</a>
+          <a href="tel:1-740-350-9690" class="btn btn-light" role="button"><i class="fab fa-whatsapp pr-1"></i> CALL</a>
+          <p>Located at 106 Groves Ave Marietta, OH 45750</p> -->
         </div>
         <div class="col-lg-6 p-5 text-center">
           <iframe 
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3081.9092108442774!2d-81.47793098431455!3d39.42617742320558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8849cda05b069321%3A0xea44e814376acde3!2sOCD%20Automotive%20LLC!5e0!3m2!1sen!2sus!4v1587838879184!5m2!1sen!2sus" 
-         frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+         frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="shadow-sm border border-primary">
         </iframe>
         </div>
       </div>
