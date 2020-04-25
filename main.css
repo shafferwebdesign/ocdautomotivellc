@@ -84,8 +84,9 @@ html, body {
     color: #eee;
 }
 
-.contact h2, p{
-    background-color: #111;
+iframe {
+    width: 100%;
+    min-height: 300px;
 }
 /* Main Content End */
 footer {
